@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int outerNumber, innerNumer;
+	int outerNumber, innerNumber;
 
 	for (outerNumber = 0; outerNumber <= 98; outerNumber++)
 	{
