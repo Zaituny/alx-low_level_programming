@@ -10,21 +10,21 @@
 
 int main(void)
 {
-	int outerDigit, innerDigit, innerDigit1;
+	int outerDigit, innerDigit, iD1;
 
 	for (outerDigit = '0'; outerDigit < '9'; outerDigit++)
 	{
 		for (innerDigit = outerDigit + 1; innerDigit <= '9'; innerDigit++)
 		{
-			for (innerDigit1 = innerDigit + 1; innerDigit1 <= '9'; innerDigit1++)
+			for (iD1 = innerDigit + 1; iD1 <= '9'; iD1++)
 			{
-				if (innerDigit == outerDigit || innerDigit == innerDigit1 || outerDigit == innerDigit1)
+				if (innerDigit == outerDigit || innerDigit == iD1 || outerDigit == iD1)
 					continue;
 				putchar(outerDigit);
 				putchar(innerDigit);
-				putchar(innerDigit1);
+				putchar(iD1);
 
-				if (outerDigit == '7' && innerDigit == '8' && innerDigit1 == '9')
+				if (outerDigit == '7' && innerDigit == '8' && iD1 == '9')
 					continue;
 
 				putchar(',');
