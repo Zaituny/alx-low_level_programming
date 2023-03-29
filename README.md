@@ -1,2 +1,1 @@
-# alx-low_level_programming
-repo for the alx C tasks
+This dir is for the more pointers arrays strings tasks
