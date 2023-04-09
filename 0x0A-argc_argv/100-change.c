@@ -22,12 +22,12 @@ int main(int argc, char *argv[])
 	num = atoi(argv[1]);
 	result = 0;
 
-	for (i = 0; i < 5 && num >= 0; j++)
+	for (i = 0; i < 5 && num >= 0; i++)
 	{
-		while (num >= coins[j])
+		while (num >= coins[i])
 		{
 			result++;
-			num -= coins[j];
+			num -= coins[i];
 		}
 	}
 
