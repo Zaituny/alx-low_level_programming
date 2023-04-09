@@ -1,1 +1,1 @@
-This dir is for the more pointers arrays strings tasks
+This repo is for the alx c tasks
