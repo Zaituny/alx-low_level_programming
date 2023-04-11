@@ -5,7 +5,7 @@
  * _strdup - allocates new space and saves a str in it
  * @str: string to be duplicated
  *
- * Reutrn: pointer
+ * Return: pointer
  */
 char *_strdup(char *str)
 {
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
+
 	while (str[len])
 		len++;
 
