@@ -23,7 +23,8 @@ char *create_array(unsigned int size, char c)
 	{
 		if (i == size)
 			ar[i] = '\0';
-		ar[i] = c;
+		else
+			ar[i] = c;
 	}
 
 	return (ar);
